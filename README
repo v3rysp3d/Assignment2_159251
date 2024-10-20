@@ -1,0 +1,20 @@
+# MemAppender Project
+
+This is a program which implements a memory-based appender for Log4j2 (as stated in the assignment sheet),
+which captures log events up to a configurable maximum size.
+When the maximum size is reached, the oldest log events are discarded.
+This project also includes unit tests which will verify the functionality of the appender.
+
+## Features
+- Stores log events in memory up to a max size
+- Configurable maximum size
+- Converts log events to strings
+- Discards the oldest log events when memory is full
+
+## Getting Started
+### Prerequisites
+- Java 8 or above
+- Maven
+
+### Build and Run
+1. Clone the repository:
